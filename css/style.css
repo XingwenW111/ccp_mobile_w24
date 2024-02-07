@@ -1,12 +1,18 @@
-body{
-    color: brown;
-    background-color: bisque;
-}
+h1,h2{
+	text-align: center;
+    margin: 10px;
+    font-size: 200%;
+ }
+.grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		background-color: #2196f3;
 
-h1,h2,h3{
-    font-size: medium;
+		padding: 10px;
+		width: 620px;
 
-}
-p{
-    
+		text-align: center;
+		font-size: 30px;
+		border: 3px solid;
+		border-radius: 10px;
 }
